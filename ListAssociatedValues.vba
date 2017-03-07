@@ -34,7 +34,7 @@ Sub ListAssociatedValues()
     Const iRowTitle As Long = 1 'This row is the titles for the columns
     Const iRowDataStart As Long = 2 'This row is the first one containing real data
     'Last row of the data - can't assign Rows.Count to a Const, Excel has 'issues' with strict typing ;)
-    Dim iLastRow As String
+    Dim iLastRow As Long
     iLastRow = Rows.Count
     
     'String constants
